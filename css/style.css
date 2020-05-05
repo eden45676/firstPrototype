@@ -1,0 +1,172 @@
+/******************** For Main Page ***********************/
+
+.city-background{
+    background-image: url("../asset/cityBW.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+@media (min-width: 576px){
+.main-block{
+    padding: 0px 20px 0px 20px; 
+    margin-top:100px;
+    position:static;
+    border-radius: 20px;   
+    background-image: linear-gradient(to right, rgb(211,211,211,0.1), rgb(211,211,211,0.7),rgb(211,211,211,0.1) );
+    
+}
+
+}
+@media (max-width: 575px){
+.main-block{
+    padding: 0px 20px 0px 20px; 
+    margin-top:100px;
+    position:static;
+    border-radius: 20px;   
+    background-image: linear-gradient(to right, rgb(211,211,211,0.1), rgb(211,211,211,0.5),rgb(211,211,211,0.1) );
+    
+}
+
+.navbar{
+    background-color: #8d8e89;
+    opacity: 0.95;
+}
+
+}
+
+.fixed-top{
+    margin:auto;
+    border-radius: 5px;
+}
+.nav-padding{
+    padding-left:2em;
+    padding-right:2em;
+}
+
+
+.row-header{
+    margin:0px auto;
+    padding: 0px auto;
+}
+.row-content{
+    margin: 0px auto;
+    padding: 20px 0px 20px 0px;
+    /* border-bottom: 1px ridge; */
+    min-height:400px;
+}
+
+.footer{
+    /* background-color: #D1C4E9; */
+    
+    position:static;
+    color:white;
+    margin: 0px auto;
+    margin-top:100px;
+    padding: 20px 0px 20px 0px;
+}
+
+.jumbotron{
+    padding: 70px 30px 70px 30px;
+    margin: 0px auto;
+    background: #9585cd;
+    color: floralwhite;
+
+}
+
+.address{
+    font-size: 80%;
+    margin: 0px;
+    color: #0f0f0f;
+
+}
+
+
+.box{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 2s;
+
+}
+@keyframes example {
+    0%   {background-color: red; left:0px;}
+    50%  {background-color: yellow; left:200px;}
+    100% {background-color: red; left:0px;}
+  }
+
+.hamster{
+    background-image: url("../asset/hamster1.png");
+    width: 200px;
+    height: 200px;
+    position: relative;
+    animation-name: hamster;
+    animation-duration: 2s;
+    
+}
+#div1 {
+    width: 350px;
+    height: 170px;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+  }
+
+/******************** For AboutME Page ***********************/
+
+.container-narrow{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.body-narrow{
+   margin-left: 5%; 
+   margin-right:5%;
+   width:100%;
+}
+.history-content{
+    margin: 0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+ 
+}
+.row-content-experience{
+    margin: 0px auto;
+    padding: 20px 0px 20px 0px;
+    /* border-bottom: 1px ridge; */
+    min-height:400px;
+}
+.row-content-education{
+    margin: 0px auto;
+    padding: 20px 0px 20px 0px;
+    /* border-bottom: 1px ridge; */
+    min-height:200px;
+}
+
+#uvicDIV{
+    width: 100%;
+    padding: 0px;
+    text-align: center;
+    margin-top: 20px;
+    display: none;
+  }
+
+.toggleButton{
+    border:none;
+    background-color: inherit;
+    padding: 0;
+}
+.hausway{
+    color:#fff;
+    font-size: 23px;
+    font-weight:400;
+    padding: 0px 10px 0px 5px;
+    vertical-align: middle;
+    text-shadow: 2px 2px #5555;
+}
+
+.experience span{
+        display:block;
+}
