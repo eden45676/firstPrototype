@@ -1,21 +1,19 @@
 {
-  "name": "confusion",
+  "name": "yghub",
   "version": "1.0.0",
-  "description": "This is a website for Ristorante Con Fusion",
-  "main": "main.html",
+  "description": "This is a website for YG HUB",
+  "main": "index.html",
   "scripts": {
-    "start": "npm run lite",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "",
+    "test": "",
     "lite": "lite-server"
   },
-  "author": "",
+  "author": "YG",
   "license": "ISC",
-  "devDependencies": {
-    "lite-server": "^2.3.0"
-  },
+  "devDependencies": {},
   "dependencies": {
     "bootstrap": "^4.4.1",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.1",
     "popper.js": "^1.16.1"
   }
 }
