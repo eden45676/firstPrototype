@@ -170,3 +170,7 @@
 .experience span{
         display:block;
 }
+
+.row-no-margin{
+        margin:0;
+}
