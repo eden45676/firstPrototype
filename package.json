@@ -6,7 +6,8 @@
   "scripts": {
     "start": "",
     "test": "",
-    "lite": "lite-server"
+    "lite": "lite-server",
+    "build": "azure"
   },
   "author": "YG",
   "license": "ISC",
